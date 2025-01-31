@@ -1,0 +1,52 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# VS Code
+.vscode/
+.history/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Local development
+*.log
+*.sqlite3
+media/
+static/
+db.sqlite3
+
+# Documentation
+README.md
+docs/
+*.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

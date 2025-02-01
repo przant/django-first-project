@@ -1,0 +1,5 @@
+-r base.txt
+pytest>=7.4
+pytest-django>=4.7
+black>=23.12
+flake8>=6.1

@@ -19,7 +19,7 @@ select = [
     "RUF", # ruff-specific rules
     "SIM", # flake8-simplify
 ]
-ignore = ["D203", "D213"]
+ignore = ["D203", "D213", "F403", "F405"]
 
 [tool.ruff.format]
 quote-style = "double"

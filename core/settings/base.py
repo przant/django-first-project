@@ -9,7 +9,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "your-default-secret-key-for-dev")
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = list[str]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "healthcheck.apps.HealthcheckConfig",
 ]
 
 MIDDLEWARE = [
